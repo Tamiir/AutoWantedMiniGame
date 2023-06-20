@@ -13,10 +13,10 @@ widtht=1759-1679
 heightt=264-164
 
 # Load the template image and the four data images
-data1 = cv2.imread('template_mario.png')
-data2 = cv2.imread('template_luigi.png')
-data3 = cv2.imread('template_wario.png')
-data4 = cv2.imread('template_yoshi.png')
+data1 = cv2.imread('images/template_mario.png')
+data2 = cv2.imread('images/template_luigi.png')
+data3 = cv2.imread('images/template_wario.png')
+data4 = cv2.imread('images/template_yoshi.png')
 
 # Load the bigger image and the template image
 #bigger_image = cv2.imread("bigger_image.png")

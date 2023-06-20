@@ -1,7 +1,9 @@
 import cv2
 import numpy as np
 import pyautogui
+import pygetwindow as gw
 
+"""
 leftB=1524
 topB=369
 widthB=1918-1524
@@ -10,12 +12,15 @@ heightB=671-369
 leftt=1679
 topt=164
 widtht=1759-1679
-heightt=264-164
+heightt=264-164"""
 
-data1 = cv2.imread('template_mario.png')
-data2 = cv2.imread('template_yoshi.png')
-data3 = cv2.imread('template_luigi.png')
-data4 = cv2.imread('template_wario.png')
+window = gw.getWindowsWithTitle('Paused')[0]
+left, top, width, height = window.left, window.top, window.width, window.height
+
+data1 = cv2.imread('images/template_mario.png')
+data2 = cv2.imread('images/template_yoshi.png')
+data3 = cv2.imread('images/template_luigi.png')
+data4 = cv2.imread('images/template_wario.png')
 
     # Load the bigger image and the template image
 #bigger_image = cv2.imread("bigger_image.png")
