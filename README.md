@@ -33,7 +33,7 @@ As well as a great image matching :
 
 And even to find the good face in the lower screen : 
 
-<img src="illustrations/finding.png">
+<img src="illustrations/Finding.png">
 
 Those results are given by the [image.py](image.py) file.
 
