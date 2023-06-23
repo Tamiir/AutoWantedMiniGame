@@ -39,13 +39,13 @@ Those results are given by the [image.py](image.py) file.
 
 But yes, it is easier when we have to find Wario or Mario, the only ones with yellow or red. It doesn't really work with Yoshi or Luigi ...
 
-#### What am I currently doing ?
+### What am I currently doing ?
 
 1. I take a screenshot of the upperscreen.
 2. I match it with the 4 faces to determine who is _wanted_.
 3. I look for the wanted face in the lower screen, if found, I draw a square around the face.
 
-#### What are the next thing to do ?
+### What are the next thing to do ?
 
 - I want to make some changes about the image matching, and trying to make it easier for the image recognition.
 - maybe try another algorithm, another module, but I still don’t know which one to choose.
